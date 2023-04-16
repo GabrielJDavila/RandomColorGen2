@@ -1,0 +1,98 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background: grey;
+    font-family: 'Inter', sans-serif;
+}
+
+ .main-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0;
+    background: white;
+    border-radius: 6px;
+    height: 720px;
+}
+
+nav {
+    background: #0051B4;
+    margin: 0;
+    padding: 1rem;
+}
+
+h3 {
+    margin: 0;
+    color: white;
+}
+
+.container1 {
+    margin: .5rem auto 0 auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+
+#color-picker-container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding: .5rem 0;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 11px rgba(0, 0, 0, 0.15);
+}
+
+input {
+    width: 4rem;
+    height: 3rem;
+    border: none;
+    margin: .5rem;
+}
+select {
+    width: 40%;
+    border-radius: 4px;
+    margin: .5rem;
+}
+button {
+    width: 20%;
+    border-radius: 4px;
+    background: white;
+    border: 1px solid #D1D5DB;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    margin: .5rem;
+    font-size: .8rem;
+}
+
+.container2 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+#generated-colors-container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.rendered-color-container {
+    width: 100%;
+    height: 500px;
+}
+
+.color-column {
+    width: 100%;
+    height: 100%;
+}
+
+.color-text {
+    color: black;
+    height: 3rem;
+    padding-top: 1rem;
+}
+
+.hide {
+    opacity: 0;
+    position: absolute;
+    top: -100% 
+}
